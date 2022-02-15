@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Me</title>
+</head>
+
+<body>
+    <h1>My Contact Details</h1>
+    <p><b><a href="www.linkedin.com/in/vivek-meena-profile" target="_blank">Linkdein</a></b></p>
+    <p>Email: vivekm33er@gmail.com</p>
+    <p>Phone: +91 8840351987</p>
+    <p>Address: Jaipur, Rajasthan</p>
+    <!-- in a form you can fill some details and those details will be then send to backend i.e a datatabse  -->
+    <hr size="3" noshade="">
+    <h2>Your Contact Details</h2>
+    <!-- in the action part of the form i have written a "mailto:info@email" this will fill the details of the form in the email but it will not send the email -->
+    <form action="mailto:info@healerav@gmail.com" method="post" enctype="text/plain">
+        <!-- in a form there is a label and diffrent types of inputs -->
+        <!-- label: it is a text to know that there is something here -->
+        <!-- input: are type of action you want to perform in the form -->
+        <label>Your Name:</label>
+        <input type="text" name="your name">
+        <br>
+        <label>Your Email:</label>
+        <input type="email" name="your email">
+        <!-- giving a name attribute to a tag helps in specifing the task identity which is more visiual property -->
+        <br>
+        <label>Do you want to add a messege</label>
+        <input type="checkbox">
+        <br>
+        <label>Your Messege:</label>
+        <!-- textarea is a attribute which helps in defining the size of the text box -->
+        <textarea name="your messege" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
